@@ -22,6 +22,9 @@ Canada is in the housing crisis, federal and provincial governments are looking 
 
 Can we predict housing prices across various regions in Canada using consumer price index, interes rates, unemployment rates, immigration data, and other variables through a machine learning model?
 
+
+![image](/img/hpimap2.png)
+
 ## Index
 
 - [Delivery Approach](/README.md#delivery-approach)
