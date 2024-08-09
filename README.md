@@ -171,7 +171,7 @@ A linear regression model is an appropriate choice for making numerical predicti
 
 In the context of the linear regression model that we used for predicting house prices, the general formula for linear regression is:
 
-***$\hat{y}$ = $𝛽_0$ + $𝛽_1$ ⋅ $𝑥_1$ + $𝛽_2$ ⋅ $𝑥_2$ + ⋯ + $𝛽_𝑛$ ⋅ $𝑥_𝑛$***
+$\hat{y}$ = $𝛽_0$ + $𝛽_1$ ⋅ $𝑥_1$ + $𝛽_2$ ⋅ $𝑥_2$ + ⋯ + $𝛽_𝑛$ ⋅ $𝑥_𝑛$
 
 ***Where:***
 
@@ -184,7 +184,7 @@ In the context of the linear regression model that we used for predicting house 
 
 - Let's say we were predicting the ***Single_Family_Benchmark_SA*** using several input features like ***Interest Rate***, ***Unemployment Rate***, ***All-items CPI***, and others. The formula would look something like this:
 
-  - ***Single_Family_Benchmark_SA (Single Family house price) = $𝛽_0$ + $𝛽_1$ ⋅ Interest Rate + $𝛽_2$ ⋅ Unemployment Rate + $𝛽_3$ ⋅ All-items CPI+ ⋯ + $𝛽_𝑛$ ⋅ $Feature_𝑛$***
+  - Single_Family_Benchmark_SA (Single Family house price) = $𝛽_0$ + $𝛽_1$ ⋅ Interest Rate + $𝛽_2$ ⋅ Unemployment Rate + $𝛽_3$ ⋅ All-items CPI+ ⋯ + $𝛽_𝑛$ ⋅ $Feature_𝑛$
 
 **Example with Specific Features**
 
