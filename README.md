@@ -286,6 +286,17 @@ By following these steps, you can effectively use your saved neural network mode
 - Consistency: Ensures that the preprocessing steps and predictions are consistent across different datasets.
 - Efficiency: Saves time by automating the process, especially when working with multiple datasets.
 
+### Build Cloud Infrastructure for Model Inference
+As the next step to test automation, the project will build the following cloud architecture to set up model inference for all the datasets: 
+1. **Model Serving:** ECS, EKS, Lambda, API Gateway, SageMaker.
+2. **Data Ingestion:** S3, Glue, Lambda.
+3. **Inference:** SageMaker, Lambda, API Gateway, SQS.
+4. **Storage:** S3, DynamoDB, RDS.
+5. **Monitoring:** CloudWatch, X-Ray.
+6. **Security:** IAM, VPC, KMS.
+7. **CI/CD:** CodePipeline, CodeBuild, CloudFormation.
+8. **Scaling:** Auto Scaling.
+
 ### Appendix
 
 - #### Sources and references utilized for this project can be accessed in:
