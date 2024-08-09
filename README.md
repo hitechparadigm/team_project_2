@@ -37,8 +37,6 @@ Can we predict housing prices across various regions in Canada using consumer pr
   - Random Forest Regressor
   - Neural Network
   - [Model Results](/README.md#models-and-results)
-- Database
-- Future Steps
 - [Scalling to Production and Operationalization of the Models](/README.md#scalling-to-production-and-operationalization-of-the-models)
 - [Appendix](/README.md#appendix)
   - [Sources](/README.md#sources-and-references-utilized-for-this-project-can-be-accessed-in)
