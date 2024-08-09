@@ -212,7 +212,7 @@ $\hat{y}$ = $𝛽_0$ + $𝛽_1$ ⋅ $𝑥_1$ + $𝛽_2$ ⋅ $𝑥_2$ + ⋯ + $�
 
 ![image](/img/signle_houses_coefficients.png)
 
-## Models and Results
+## Models and Results (Apartment Prices in Canada)
 ![image](/img/apartment_prices.png)
 
 ### Multiple Linear Regression
