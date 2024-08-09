@@ -315,12 +315,13 @@ As the next step to test automation, the project will build the following cloud 
   - [Reports](./reports/)
   - [Source Code and Models](./src/)
 
-- #### Links to individual videos**
-  - [Janaparan (Jay)](https://)
-  - [Yixi (Grace) Gong](https://)
-  - [Dmytro Malyk](https://)
+- #### Links to individual videos
+
+  - [Dmytro Malyk](https://drive.google.com/file/d/144FPj14kAiZZpZqgJSEYIn6pQB9sJy6I/view?usp=sharing/)
   - [Phoebe Z Wei](https://)
   - [Yuriy Koshulap](https://)
+  - [Janaparan (Jay)](https://)
+  - [Yixi (Grace) Gong](https://)
 
 
 <details>
