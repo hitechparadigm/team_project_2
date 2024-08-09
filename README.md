@@ -74,6 +74,7 @@ Decision-making was guided by:
 - Minimum Wage
 - GDP
 - Immigration Data
+- Opening and Closing Businesses
 
 We will combine these datasets together to create one comprehensive view that can be used for the remainder of this analysis.
 
@@ -125,6 +126,7 @@ Feature/ Independent Variables are:
 - Bank of Canada Interest Rates
 - Immigration (monthly data)
 - Minimum Wages
+- Data on Opening and Closing Businesses
 
 ### Data Pre-Processing
 In addition to the transformation conducted and detailed above, additional pre-processing was performed prior to implementing a machine learning model:
