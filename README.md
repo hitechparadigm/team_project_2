@@ -204,7 +204,7 @@ $\hat{y}$ = $𝛽_0$ + $𝛽_1$ ⋅ $𝑥_1$ + $𝛽_2$ ⋅ $𝑥_2$ + ⋯ + $�
 
 **How Coefficients Were Determined**
 
-- The coefficients ($𝛽_0$,$𝛽_1$,…,$𝛽_𝑛$) were determined during the training of the linear regression model. The training process involves minimizing the loss function, typically the ***Mean Squared Error (MSE)***, which measures the difference between the predicted values and the actual values in the training data. The model finds the set of coefficients that best fits the training data.
+- The coefficients ($𝛽_0$, $𝛽_1$,…, $𝛽_𝑛$) were determined during the training of the linear regression model. The training process involves minimizing the loss function, typically the ***Mean Squared Error (MSE)***, which measures the difference between the predicted values and the actual values in the training data. The model finds the set of coefficients that best fits the training data.
 
 - **Summary**
 
