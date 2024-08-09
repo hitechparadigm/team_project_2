@@ -90,7 +90,9 @@ Datasets were chosen based on rigorous criteria:
 - **Database**: SQLite
 
 ### Data Exploration
-Our team started this project continuing working with housing prices and consumer price indes datasets. The other datasources listed above were slowly added. These data sources were cleaned by dropping or imputing null values, limiting the data range and dropping unnecessary columns. All of this data was filtered to be specific to Canada and limited to years between 2005 and 2024. 
+Our team started this project continuing working with housing prices and consumer price indes datasets. The other datasources listed above were slowly added. These data sources were cleaned by dropping or imputing null values, limiting the data range and dropping unnecessary columns. All of this data was filtered to be specific to Canada and limited to years between 2005 and 2024.
+
+![image](/img/hpicities2.png)
 
 ## Technology Used
 
