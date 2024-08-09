@@ -24,21 +24,25 @@ Can we predict housing prices across various regions in Canada using consumer pr
 
 ## Index
 
-- Delivery Approach
-- [Data Sources]
-  - Data Exploration
-- Technologies Used
-- Data Transformation
-  - Incorporation Additional Datasets
-- Machine Learning Model
-  - Feature Engineering
-  - Data Pre-Processing
-- Linear Regression
-- Random Forest Regressor
-- Neural Network
-- Machine Model Comparison/Model of Choice
+- [Delivery Approach](/README.md#delivery-approach)
+- [Project Outline](/README.md#project-outline)
+- [Data Sources](/README.md#data-sources)
+- [Technologies Used](/README.md#technology-used)
+- [Data Transformation](/README.md#data-transformation)
+- [Machine Learning Model](/README.md#machine-learning-model)
+  - [Feature Engineering](/README.md#feature-and-target-variables)
+  - [Data Pre-Processing](/README.md#data-pre-processing)
+- [Modeling Process](/README.md#modeling-process)
+  - [Machine Learning Model - Multiple Linear Regression (MLR)](/README.md#machine-learning-model---multiple-linear-regression-mlr)
+  - Random Forest Regressor
+  - Neural Network
+  - [Model Results](/README.md#models-and-results)
 - Database
 - Future Steps
+- [Scalling to Production and Operationalization of the Models](/README.md#scalling-to-production-and-operationalization-of-the-models)
+- [Appendix](/README.md#appendix)
+  - [Sources](/README.md#sources-and-references-utilized-for-this-project-can-be-accessed-in)
+  - [Videos](/README.md#links-to-individual-videos)
 
 ## Delivery Approach
 
@@ -92,15 +96,15 @@ We used a variety of technologies, languages and libraries during the different 
 
 #### Data Transformation
 
-Python (pandas, Numpy) Jupyter Notebook, csv
+- Python (pandas, Numpy) Jupyter Notebook, csv
 
 #### Database
 
-SQLite, Microsoft Excel
+- SQLite, Microsoft Excel
 
 #### Machine Learning Model
 
-Python (pandas, numpy, matplotlib, seaborn, sci-kit learn, tensorflow), Jupyter Notebook, csv file
+- Python (pandas, numpy, matplotlib, seaborn, sci-kit learn, tensorflow), Jupyter Notebook, csv file
 
 ## Machine Learning Model
 
@@ -241,10 +245,10 @@ In the context of the linear regression model that we used for predicting house 
 
 ## Scalling to Production and Operationalization of the Models
 
-The 1st project phase analyzed the data sources, set data pre-processing methodology, and built the baseline models. 
-The baseline models have been saved in .keras format to ensure re-usability, compatibility, extensibility, and portability. 
+- The 1st project phase analyzed the data sources, set data pre-processing methodology, and built the baseline models. 
+- The baseline models have been saved in .keras format to ensure re-usability, compatibility, extensibility, and portability. 
 
-As we have more than **60 datasets** by Canada's regions, we need to build a re-usable system that could help process all the data, predicting housing prices for each region. 
+- As we have more than **60 datasets** by Canada's regions, we need to build a re-usable system that could help process all the data, predicting housing prices for each region. 
 
 ### Scalling to Production process
 
@@ -275,6 +279,7 @@ By following these steps, you can effectively use your saved neural network mode
 - Step 1: Create the Automation Function
 - Step 2: Save and Load the Scaler
 - Step 3: Running the Script
+- [Automation Notebook](/src/scalling_to_production.ipynb)
 
 #### Benefits of Automation:
 - Reusability: This script can be reused for any new datasets with minimal changes.
@@ -283,14 +288,12 @@ By following these steps, you can effectively use your saved neural network mode
 
 ### Appendix
 
-**References**
-
-- Sources and references utilized for this project can be accessed in:
+- #### Sources and references utilized for this project can be accessed in:
   - [Data folder](./data/)
   - [Reports](./reports/)
   - [Source Code and Models](./src/)
 
-- **Links to individual videos**
+- #### Links to individual videos**
   - [Janaparan (Jay)](https://)
   - [Yixi (Grace) Gong](https://)
   - [Dmytro Malyk](https://)
