@@ -177,8 +177,8 @@ $\hat{y}$ = $𝛽_0$ + $𝛽_1$ ⋅ $𝑥_1$ + $𝛽_2$ ⋅ $𝑥_2$ + ⋯ + $�
 
 - $\hat{y}$ is the predicted value (e.g., the predicted house price).
 - $𝛽_0$ is the intercept (also known as the bias term), which is the value of 𝑦^ when all input features $𝑥_1$,$𝑥_2$,…,$𝑥_𝑛$​  are 0.
-- $𝛽_1$, $𝛽_2$,…,$𝛽_𝑛$ are the coefficients (weights) for the corresponding input eatures $𝑥_1$,$𝑥_2$,…,$𝑥_𝑛$.
-- $𝑥_1$,$𝑥_2$,…,$𝑥_𝑛$ are the input features (e.g., interest rate, unemployment rate, CPI, etc.).
+- $𝛽_1$, $𝛽_2$,…, $𝛽_𝑛$ are the coefficients (weights) for the corresponding input eatures $𝑥_1$,$𝑥_2$,…,$𝑥_𝑛$.
+- $𝑥_1$, $𝑥_2$,…, $𝑥_𝑛$ are the input features (e.g., interest rate, unemployment rate, CPI, etc.).
 
 **Applying the Formula to Our Model**
 
@@ -190,7 +190,7 @@ $\hat{y}$ = $𝛽_0$ + $𝛽_1$ ⋅ $𝑥_1$ + $𝛽_2$ ⋅ $𝑥_2$ + ⋯ + $�
 
 - Suppose we only had three features: ***Interest Rate, Unemployment Rate, and All-items CPI***. The formula for our linear regression model would be:
 
-  - ***Single_Family_Benchmark_SA = $β_0$​ + $β_1$​ ⋅Interest Rate + $β_2$​ ⋅ Unemployment Rate + $β_3$​ ⋅ All-items CPI***
+  - Single_Family_Benchmark_SA = $β_0$​ + $β_1$​ ⋅Interest Rate + $β_2$​ ⋅ Unemployment Rate + $β_3$​ ⋅ All-items CPI
 
 - ***Interpretation:***
 
