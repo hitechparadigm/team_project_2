@@ -212,6 +212,8 @@ $\hat{y}$ = $𝛽_0$ + $𝛽_1$ ⋅ $𝑥_1$ + $𝛽_2$ ⋅ $𝑥_2$ + ⋯ + $�
 
 ![image](/img/signle_houses_coefficients.png)
 
+The coefficients indicate how much each feature contributes to the prediction. Features like ***All-items CPI*** and ***Interest Rate*** have significant impacts, with positive or negative influences depending on their direction.
+
 ## Models and Results (Apartment Prices in Canada)
 ![image](/img/apartment_prices.png)
 
@@ -240,7 +242,11 @@ $\hat{y}$ = $𝛽_0$ + $𝛽_1$ ⋅ $𝑥_1$ + $𝛽_2$ ⋅ $𝑥_2$ + ⋯ + $�
 
 ### Conclusion
 
-- The Multiple Linear Regression model is the most accurate and effective for predicting the Apartment Benchmark SA in this dataset, given its very low MSE and exceptionally high R². The Random Forest and Decision Tree models, although still performing well, exhibit higher MSE values, indicating potential overfitting. The Neural Network model, with the largest average errors, suggests that further optimization is needed for better performance.
+- **The Multiple Linear Regression model is the most accurate and effective** for predicting the Apartment Benchmark SA in this dataset, given its very low MSE and exceptionally high R². The Random Forest and Decision Tree models, although still performing well, exhibit higher MSE values, indicating potential overfitting. The Neural Network model, with the largest average errors, suggests that further optimization is needed for better performance.
+
+### Notebooks
+- Single House and Townhouse Prices: [Linear Regression](/src/model/linearregression.ipynb), [Neural Network](/src/model/neuralnetworkmodel.ipynb)
+- Apartment Prices: [Multiple Linear Regerssion, Random Forest Regressr, Decision Tree Regressor, Neural Network](/src/model/Apartment_Benchmark.ipynb)
 
 
 ## Scalling to Production and Operationalization of the Models
