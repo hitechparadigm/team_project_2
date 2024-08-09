@@ -18,13 +18,54 @@ $ echo "Data Sciences Institute"
 
 ---
 
-# Module Overview
+# Hello everyone!
 
-The content in this module is a response to the observations made during Team Project 1. There is no specific structure to the slides, as they present a collection of important points based on the feedback and common issues identified.
+We hope you've all been doing well and have learned a lot of new and great things since Team Project 1. After working in your separate streams, we're excited to have everyone back together as one module. This module is a continuation of our journey together, aimed at addressing some of the common challenges and areas for improvement we observed in your projects.
+
+<!-- There is no specific structure to these slides; instead, they present a collection of important points based on the feedback and common issues identified. Let's dive in and enhance your skills to make your projects even more impactful and impressive! -->
+
+![bg right:35% w:320](./images/Path.jpg)
+
 
 ---
 
-   
+# Addressing some questions
+
+---
+
+# How is this Module Different from Team Project 1?
+
+The goal of the two-team project modules is to help you create a strong data science project for your portfolio. This way, employers, recruiters, HR personnel, and your network can see your skills and say, "This person is really good at what they do! 🧐"
+
+- In **Team Project 1**, we grouped you into teams based on project interests, using foundational skills from the modules you learned: Shell, Git, Python, SQL, and Applying Statistical Concepts.
+
+- **Team Project 2** focuses on leveraging everything you’ve learned in your streams and Scaling to Production to elevate your projects. Some teams' new skills will align with their original goals, while others may choose to revise their approach. Both outcomes are valuable lessons **for your GitHub presence**.
+
+---
+
+# Why are my Team Members Different?
+
+We’ve reorganized the teams to consider those who have left or changed their streams. Despite these changes, it's essential to push forward and work together to create a good portfolio. In the industry, people often leave and join projects, so treat new members as new coworkers. If you have new members, reach out and introduce yourselves. Regroup, set expectations, establish rules of engagement, and create your own timelines and deadlines.
+
+---
+
+# When is this due?
+
+
+Team project 2 has the following requirements:
+- Each team member must create, review, and merge a pull request.
+- Each team member must contribute to the repository’s log.
+- Each team member must create a video about their learnings and experience.
+- Each project's README should describe the project, why the team approached the project the way they did, and should demonstrate thoughtful consideration of the [guiding questions on GitHub](https://github.com/UofT-DSI/team_project/blob/main/team_project_2.md#data-visualization-guiding-questions). 
+
+You  must meet these requirements by *August 15th*. The project itself doesn't need to be finished by this deadline as **🚨you are encouraged to continue improving it.🚨**
+
+---
+
+# Let's jump right in
+
+---
+
 # What is a Good Portfolio?
 
 A good portfolio showcases your best work and highlights skills that are highly valued by employers in data science and machine learning. It demonstrates your ability to handle real-world tasks, making you an attractive candidate for employment.

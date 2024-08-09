@@ -169,7 +169,6 @@ This approach effectively communicates complex concepts to both technical and no
 
 ---
 
-
 # Next Steps Post-Certification
 
 As you transition from the certificate program, continue to build and showcase your skills.
@@ -183,6 +182,13 @@ As you transition from the certificate program, continue to build and showcase y
 Actively applying for jobs should proceed in tandem with these activities.
 
 <!-- Speaker notes: Emphasize that maintaining a portfolio with 5-6 diverse projects is ideal for demonstrating a commitment to the field and depth of skills. Clarify that the focus should be on the quality of projects rather than simply meeting a numerical target. Encourage participants to continuously apply for jobs, using their portfolios to strengthen their applications and showcase their ongoing engagement and expertise. Remind them that even after the modules end, they still have access to the Slack community (more information will come out later). This platform can be a valuable resource for finding project partners, asking questions, and getting feedback on their work. Additionally, advise them to present completed projects on LinkedIn. This not only timestamps their active engagement in relevant projects during job searches but also enhances their visibility and personal branding on a professional network. -->
+
+---
+
+# Saturday Showcase
+
+- This day is for showcasing your progress on the project goals so far. It’s not about meeting all the requirements yet, but about presenting what your project is about, what you’ve done, and what you plan to do next. It’s also a chance to get feedback and ideas from your fellow participants. 
+- Each team has a maximum of 5 minutes to present. Put your best foot forward, as you may never get such a diverse audience of this size again. The audience is comprised of your fellow participants, who now have a good background in data science and machine learning, and have extensive expertise in their respective industries. They will serve as judges and provide valuable feedback.
 
 ---
 
