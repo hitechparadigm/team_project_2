@@ -4,11 +4,11 @@
 
 This project was successful due to active participation of following team members:
 
-- Janaparan (Jay)
+- Phoebe Z Wei
 - Yixi (Grace) Gong
 - Dmytro Malyk
-- Phoebe Z Wei
 - Yuriy Koshulap
+- Janaparan (Jay)
 
 ## Project Overview
 
