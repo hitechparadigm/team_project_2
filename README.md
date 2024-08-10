@@ -323,7 +323,7 @@ As the next step to test automation, the project will build the following cloud 
   - [Phoebe Z Wei](https://)
   - [Yuriy Koshulap](https://)
   - [Janaparan (Jay)](https://)
-  - [Yixi (Grace) Gong](https://)
+  - [Yixi (Grace) Gong](https://drive.google.com/file/d/1MvWIuQ75sLzCE6czkZMmS8a0YTZV02KB/view?usp=drive_link)
 
 
 <details>
