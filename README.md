@@ -12,7 +12,7 @@ This project was successful due to active participation of following team member
 
 ## Project Overview
 
-Our project aims to develop a machine learning model to predict housing prices in Canada by analyzing various economic factors, such as Consumer Price Index (CPI), unemployment rates, GDP rates, immigration dynamics, interest rates, and minimum wages. 
+The objective of this analysis was to develop machine learning models to predict housing prices across various regions in Canada using a combination of macroeconomic indicators and demographic variables. Key features included consumer price index (CPI), interest rates, unemployment rates, immigration data, and other relevant variables.
 
 Until June 2024, interest rates, inflation rates, and immigration numbers have reached a 20-year maximum. Our team is particularly interested in exploring how these significant increases will affect housing prices across different regions.
 
@@ -20,7 +20,7 @@ Canada is in the housing crisis, federal and provincial governments are looking 
 
 ### Project Question
 
-Can we predict housing prices across various regions in Canada using consumer price index, interes rates, unemployment rates, immigration data, and other variables through a machine learning model?
+Can we predict housing prices across various regions in Canada using consumer price index, interest rates, unemployment rates, immigration data, and other variables through a machine learning model?
 
 
 ![image](/img/hpimap2.png)
@@ -89,7 +89,7 @@ Datasets were chosen based on rigorous criteria:
 - **Format**: Preferred formats were CSV and Excel for compatibility with statistical software.
 - **Database**: SQLite
 
-### Data Exploration
+### Exploratory Data Analysis (EDA)
 Our team started this project continuing working with housing prices and consumer price indes datasets. The other datasources listed above were slowly added. These data sources were cleaned by dropping or imputing null values, limiting the data range and dropping unnecessary columns. All of this data was filtered to be specific to Canada and limited to years between 2005 and 2024.
 
 ![image](/img/hpicities2.png)
@@ -116,6 +116,7 @@ To find an answer to our project question, we tested out three different machine
 
 - Multiple Linear Regression
 - Random Forest Regression
+- Decision tree regression
 - Neural Network Algorithm
 
 ### Feature and Target Variables
@@ -167,9 +168,8 @@ The correlation matrix provides some insights into the relationships between dif
 
     - **Business Activity:** Active businesses, Opening businesses, and Closing businesses have varying correlations with other economic indicators Notably, Active businesses is negatively correlated with the Unemployment Rate, which makes sense as more active businesses often correspond to lower unemployment.
 
-### Modeling Process
+## Model Development
 ![image](/img/modeling_process.png)
-
 
 ### Machine Learning Model - Multiple Linear Regression (MLR)
 A linear regression model is an appropriate choice for making numerical predictions, especially when there is linear relation between the features. In our case, since we have multiple features in our dataset, a multiple linear regression model is applicable. The Multiple linear regression algorithm, models the linear relationship between a single dependent continuous variable and more than one independent variables.
@@ -187,6 +187,7 @@ $\hat{y}$ = $𝛽_0$ + $𝛽_1$ ⋅ $𝑥_1$ + $𝛽_2$ ⋅ $𝑥_2$ + ⋯ + $�
 
 **Applying the Formula to Our Model**
 
+### Single_Family_Benchmark_SA
 - Let's say we were predicting the ***Single_Family_Benchmark_SA*** using several input features like ***Interest Rate***, ***Unemployment Rate***, ***All-items CPI***, and others. The formula would look something like this:
 
   - Single_Family_Benchmark_SA (Single Family house price) = $𝛽_0$ + $𝛽_1$ ⋅ Interest Rate + $𝛽_2$ ⋅ Unemployment Rate + $𝛽_3$ ⋅ All-items CPI+ ⋯ + $𝛽_𝑛$ ⋅ $Feature_𝑛$
@@ -219,33 +220,34 @@ $\hat{y}$ = $𝛽_0$ + $𝛽_1$ ⋅ $𝑥_1$ + $𝛽_2$ ⋅ $𝑥_2$ + ⋯ + $�
 
 The coefficients indicate how much each feature contributes to the prediction. Features like ***All-items CPI*** and ***Interest Rate*** have significant impacts, with positive or negative influences depending on their direction.
 
-## Models and Results (Apartment Prices in Canada)
+### Apartment_Benchmark_SA
+Let's say we were predicting the ***Apartment_Benchmark_SA*** using several input features like ***Interest Rate***, ***Unemployment Rate***, ***All-items CPI***, and others. 
 ![image](/img/apartment_prices.png)
 
-### Multiple Linear Regression
+#### Multiple Linear Regression
 
 - MSE (Mean Squared Error): 3903.93
 - R² (Coefficient of Determination): 0.99999971
 - Interpretation: The Multiple Linear Regression model achieves an exceptionally low MSE and an extraordinarily high R². This indicates that the model predicts the apartment benchmark values with outstanding accuracy, explaining nearly all of the variance in the target variable. This model is highly effective for this dataset.
 
-### Random Forest Regressor
+#### Random Forest Regressor
 
 - MSE: 19,762,973.04
 - R²: 0.99852134
 - Interpretation: The Random Forest model has a significantly higher MSE compared to the linear regression model. This suggests potential overfitting or a misalignment with the dataset’s characteristics. Despite still explaining a high proportion of the variance, it is less effective than the linear regression model for this dataset.
 
-### Decision Tree Regressor
+#### Decision Tree Regressor
 
 - MSE: 30,244,042.55
 - R²: 0.99773715
 - Interpretation: The Decision Tree model also shows a high MSE, indicating possible overfitting or excessive model complexity. While it performs well, it is less effective compared to the linear regression model, as evidenced by its higher MSE and lower R².
 
-### Neural Network
+#### Neural Network
 
 - MAE (Mean Absolute Error): 261,108.69
 - Interpretation: The Neural Network model's MAE is higher compared to the MSE of the other models, suggesting larger typical prediction errors. This indicates that the neural network may require further tuning or may not be as well-suited for this prediction task.
 
-### Conclusion
+#### Conclusion
 
 - **The Multiple Linear Regression model is the most accurate and effective** for predicting the Apartment Benchmark SA in this dataset, given its very low MSE and exceptionally high R². The Random Forest and Decision Tree models, although still performing well, exhibit higher MSE values, indicating potential overfitting. The Neural Network model, with the largest average errors, suggests that further optimization is needed for better performance.
 
